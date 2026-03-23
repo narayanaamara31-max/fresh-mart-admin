@@ -54,7 +54,7 @@ const ProductForm = () => {
       updateProduct(editing.id, data);
       toast({ title: 'Updated', description: `${data.name} updated successfully.` });
     } else {
-      addProduct({ ...data, id: `p-${Date.now()}` });
+      addProduct({ ...data, id: `p-${Date.now()}` } as import('@/types').Product);
       toast({ title: 'Added', description: `${data.name} added successfully.` });
     }
     navigate(-1);
