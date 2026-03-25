@@ -1,5 +1,6 @@
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useState, useEffect } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, Image, Modal, SafeAreaView, Alert } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, Image, Modal, Alert } from 'react-native';
 import { useReturnStore } from '@/src/stores/returnStore';
 import { ReturnRequest, ReturnStatus } from '@/src/types';
 import { Button } from '@/components/ui/Button';

@@ -1,5 +1,6 @@
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useState } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, Modal, SafeAreaView, FlatList } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, Modal, FlatList } from 'react-native';
 import { useCustomerStore } from '@/src/stores/customerStore';
 import { useOrderStore } from '@/src/stores/orderStore';
 import SearchBar from '@/components/SearchBar';

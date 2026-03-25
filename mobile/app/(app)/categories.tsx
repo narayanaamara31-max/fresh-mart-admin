@@ -1,5 +1,6 @@
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useState } from 'react';
-import { View, Text, ScrollView, TouchableOpacity, Image, Modal, SafeAreaView, Alert } from 'react-native';
+import { View, Text, ScrollView, TouchableOpacity, Image, Modal, Alert } from 'react-native';
 import { useCategoryStore } from '@/src/stores/categoryStore';
 import { useProductStore } from '@/src/stores/productStore';
 import { Button } from '@/components/ui/Button';
